@@ -14,10 +14,10 @@ and insert the population size and mutation operator.
 Once the values are input, then the chromosomes will be generated then the fitness function will be applied on them.
 
 The Genetic algorithm is implemented as follows: 
-1.	Generating an initial population of p randomly generated solutions, and evaluate the fitness of every individual in the population. 
+1.	Generating an initial population of randomly generated solutions, and evaluating the fitness of every individual in the population. 
 2.	Using binary tournament selection (with replacement) twice to select two parents. 
 3.	Running single-point crossover on these parents to give 2 children. 
-4.	Running mutation on e and f to give two new solutions. Evaluate the new solutions fitness. 
+4.	Running mutation on e and f to give two new solutions. Evaluating the new solutions fitness. 
 5.	Running weakest replacement.  
 
 ### Built With:
